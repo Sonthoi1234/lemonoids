@@ -29,7 +29,7 @@
 }
 
 #bug:hover {
-    border-color: #A288E3;
+    border-color: #eb76b6;
     border-radius: 8px;
     transition: 0.15s;
 }
@@ -58,8 +58,32 @@
     transition: 0.15s;
 }
 
+#notfixed:hover {
+    border-color: #ff0000;
+    border-radius: 8px;
+    transition: 0.15s;
+}
+
+#inprogress:hover {
+    border-color: #ff6600;
+    border-radius: 8px;
+    transition: 0.15s;
+}
+
+#fixed:hover {
+    border-color: #0fb100;
+    border-radius: 8px;
+    transition: 0.15s;
+}
+
+#intended:hover {
+    border-color: #91ff00;
+    border-radius: 8px;
+    transition: 0.15s;
+}
+
 .badge-bug {
-    background-color: #A288E3;
+    background-color: #eb76b6;
     color: white;
     padding: 4px 8px;
     text-align: center;
@@ -98,6 +122,46 @@
     border-radius: 5px;
 }
 
+.badge-notfixed {
+    background-color: #ff0000;
+    color: white;
+    padding: 4px 8px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.badge-inprogress {
+    background-color: #ff6600;
+    color: white;
+    padding: 4px 8px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.badge-fixed {
+    background-color: #0fb100;
+    color: white;
+    padding: 4px 8px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.badge-intended {
+    background-color: #91ff00;
+    color: white;
+    padding: 4px 8px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.badge-glitch {
+    background-color: #ff2faf;
+    color: white;
+    padding: 4px 8px;
+    text-align: center;
+    border-radius: 5px;
+}
+
 .download {
     background-color: #3F88C5;
     color: white;
@@ -123,7 +187,7 @@ h3 span {
     margin: 10px 0 20px; 
 }
 
-.channel {
+.badge-channel {
     background-color: #6b7ae8ab;
     color: white;
     padding: 4px 8px;
