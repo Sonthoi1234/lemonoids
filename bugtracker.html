@@ -3,7 +3,7 @@
     <head>
         <meta charset='utf-8'>
         <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-        <title>Test Bug Tracker</title>
+        <title>Bug Reporter Site</title>
         <meta name='viewport' content='width=device-width, initial-scale=1'>
         <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
         <link rel="preconnect" href="https://rsms.me/">
@@ -14,15 +14,30 @@
         <h1 id="title"><u>Reporting Bugs & Glitches</u></h1>
         <div id="container">
             <h3 id="major-heading"><span><b>HOW TO REPORT A BUG</b></span></h3>
-            <p>To report a bug, DM me on Discord (Blob_2763#7480) or <a href="https://discord.gg/NwXXhUAk67">join my Discord server</a> and go to <span class="channel"><b>#til-bugs</b></span> to post about the bug, along with information about:</p>
+            <p>To report a bug/glitch, you can either direct message me on Discord (Sonthoi2101#1987) or join my <a href="https://discord.gg/S9Vn7rjYHH">server</a> and go to the forum <span class="badge-channel">submit-feedbacks</span>. You should find a post that says Lemonoid Updates, that's the one!
+If you want to report a bug/glitch or multiple bugs/glitches, you can provide certain informations about it, such as:</p>
             <ul>
                 <li>How to replicate the bug</li>
                 <li>A detailed description of the bug</li>
-                <li>Screenshots <em>(optional)</em></li>
+                <li>Screenshots of the bug being shown <em>(optional)</em></li>
+                <li>What can it affect (gameplay, savecode, etc.) <em>(optional)</em></li>
             </ul>
             <br>
-            <h3 id="major-heading"><span><b>BUGS IN LATEST VERSION</b></span></h3>
-            <p style="text-align: center;">no bugs, yay! :)</p>
+            <h3 id="major-heading"><span><b>ALL DETECTED BUGS</b></span></h3>
+            <p style="text-align: center;">Bugs are shown here. Report one and see how can we fix that too!</p>
+            <div class="card" id="notfixed">
+                <div class="container">
+                    <h3><b>Achievements broadcaster bug <span class="badge-notfixed">Not fixed</span> <span class="badge-bug">Bug</span></b></h3>
+                    <p>Only the broadcaster will work when you open up the Achievements menu. This was a leftover bug that I never wanna fix, so it stays here, forever maybe.</p>
+                </div>
+            </div>
+
+            <div class="card" id="inprogress">
+                <div class="container">
+                    <h3><b>Save Code encoder bug <span class="badge-inprogress">In progress</span> <span class="badge-glitch">Glitch</span></b></h3>
+                    <p>The encoder generates strings of "10631063...". I don't know why this happens, or maybe it could've been from the code loader itself. I'm still trying to work with this poop, so maybe it will be fixed in the future.</p>
+                </div>
+            </div>
             <!--
             <div class="card" id="minor">
                 <div class="container">
@@ -33,6 +48,7 @@
             -->
             <br>
             <h3 id="major-heading"><span><b>FIXED BUGS</b></span></h3>
+            <p style="text-align: center;">No bugs are fixed yet, or I might forgot to record/missed them. All fixed bugs go here</p>
             <!--
             <div class="card" id="bug">
                 <div class="container">
